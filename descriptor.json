@@ -1,0 +1,38 @@
+{
+  "vendorName": "Resolution GmbH",
+  "vendorUrl": "https://resolution.de",
+  "apps": [
+    {
+      "id": "connect-001",
+      "type": "connect",
+      "name": "Time Tracker",
+      "description": "Tracks time spent on each issue automatically.",
+      "icon": "https://example.com/icons/timetracker.png",
+      "manifestUrl": "https://example.com/manifests/timetracker.json"
+    },
+    {
+      "id": "connect-002",
+      "type": "connect",
+      "name": "Project Reports",
+      "description": "Generates comprehensive reports for your projects.",
+      "icon": "https://example.com/icons/projectreports.png",
+      "manifestUrl": "https://example.com/manifests/projectreports.json"
+    },
+    {
+      "id": "forge-001",
+      "type": "forge",
+      "name": "Workflow Automator",
+      "description": "Automates workflows to streamline your project management.",
+      "icon": "https://example.com/icons/workflowautomator.png",
+      "installUrl": "https://example.com/install/workflowautomator"
+    },
+    {
+      "id": "forge-002",
+      "type": "forge",
+      "name": "Custom Fields",
+      "description": "Allows you to create custom fields for more detailed issue tracking.",
+      "icon": "https://example.com/icons/customfields.png",
+      "installUrl": "https://example.com/install/customfields"
+    }
+  ]
+}
