@@ -3,36 +3,37 @@
   "vendorUrl": "https://resolution.de",
   "apps": [
     {
-      "id": "connect-001",
-      "type": "connect",
-      "name": "Time Tracker",
-      "description": "Tracks time spent on each issue automatically.",
-      "icon": "https://example.com/icons/timetracker.png",
-      "manifestUrl": "https://example.com/manifests/timetracker.json"
+      "id": "1218305",
+      "type": "mpac",
+      "name": "Out Of Office Assistant",
+      "appKey": "outofoffice-connect",
+      "description": "Auto assignment to backup assignee while OoO. Supports Tempo Timesheets & PTO Planner, JQL automation & resource planning gadgets",
+      "icon": "https://marketplace-cdn.atlassian.com/files/bf60b18d-ad69-4afb-9834-9ab5f356aead?fileType=image&mode=full-fit"
     },
     {
-      "id": "connect-002",
-      "type": "connect",
-      "name": "Project Reports",
+      "id": "1228240",
+      "type": "mpac",
+      "name": "HubSpot Integration",
+      "appKey": "de.resolution.integration.hubspot-for-jira",
       "description": "Generates comprehensive reports for your projects.",
-      "icon": "https://example.com/icons/projectreports.png",
-      "manifestUrl": "https://example.com/manifests/projectreports.json"
+      "icon": "https://marketplace-cdn.atlassian.com/files/d1813b79-363f-4066-9a0b-f5b51100e734?fileType=image&mode=full-fit"
     },
     {
-      "id": "forge-001",
-      "type": "forge",
-      "name": "Workflow Automator",
-      "description": "Automates workflows to streamline your project management.",
-      "icon": "https://example.com/icons/workflowautomator.png",
-      "installUrl": "https://example.com/install/workflowautomator"
+      "id": "1226752",
+      "type": "mpac",
+      "name": "Issue translation",
+      "appKey": "de.resolution.ticket-translation",
+      "description": "Do issue translations in 1 click: Translate comments in +100 languages. Comment in any language and post in the project's default",
+      "icon": "https://marketplace-cdn.atlassian.com/files/88c92eb8-c211-481e-a762-92211f58092f?fileType=image&mode=full-fit"
     },
     {
-      "id": "forge-002",
+      "id": "marketplace",
       "type": "forge",
-      "name": "Custom Fields",
-      "description": "Allows you to create custom fields for more detailed issue tracking.",
-      "icon": "https://example.com/icons/customfields.png",
-      "installUrl": "https://example.com/install/customfields"
+      "name": "Resolution Marketplace Dev Environment",
+      "description": "This app!",
+      "icon": "https://marketplace-cdn.atlassian.com/files/20a9ec4a-240c-489f-8ce7-ff9c378cd379",
+      "appId": "ari:cloud:ecosystem::app/78cf0cab-73f4-41ae-9796-b0319094bb98",
+      "environmentId": "default"
     }
   ]
 }
